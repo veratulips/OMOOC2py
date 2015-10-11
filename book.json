@@ -3,19 +3,6 @@
     "description": "OMOOC.py tutorial for teching",
     "author": "OMOOC-support <omooc-support@googlegroups.com>",
 
-    "plugins": [
-        "disqus"
-    ],
-    "pluginsConfig": {
-        "shortName": "Openmindclub"
-    }
-}
-
-{
     "plugins": ["disqus"],
-    "pluginsConfig": {
-        "disqus": {
-            "shortName": "veratulips"
-        }
-    }  
+    "pluginsConfig": {"disqus": {"shortName": "veratulips"}}  
 }
