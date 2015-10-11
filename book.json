@@ -15,7 +15,7 @@
     "plugins": ["disqus"],
     "pluginsConfig": {
         "disqus": {
-            "shortName": "yourshortName"
+            "shortName": "veratulips"
         }
     }  
 }
