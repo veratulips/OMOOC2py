@@ -10,18 +10,16 @@
 ##习题5：格式化字符串 （format string）
 * 问题：''是字符串；“”是？
 
-    ```
+    
     %s 字符串
     
     %d 数字
     
-    %r 无论什么都打印出来```
+    %r 无论什么都打印出来
 
-    ```
     e.g.
     name='Zed A. Shaw'
     print "Let's talk about %s." % name
-    ```
 
 * [参考](http://www.cnblogs.com/gotaly/articles/2583250.html)
 
@@ -41,140 +39,108 @@ nameAge={"zhang":10,"wang":11,"li":32} # 用到了列表
 s.format(*args, *kwargs) # 可以认为是一种函数调用
 ```
     但是我认为我记不住这些方式，肯定还是要遇到多了自然就知道了。
+    
 ##习题6：字符串和文本基础
-print "I also said '%s'." % y # notice that '%s' = %r ~= %s
-print "I also said %s." % y
+    
+    print "I also said '%s'." % y # notice that '%s' = %r ~= %s
+    print "I also said %s." % y
+    
+* 主旨是要注意数据类型```type()```
+    
 
-习题7：复习
-print "."*10 #intersting
- 
-print end1+end2+end3+end4+end5+end6, # the comma actually connects these two print
-print end7+end8+end9+end10+end11+end12
+##习题7：复习
 
-习题8：
+    print "."*10  # this is intersting
+    print end1+end2+end3+end4+end5+end6, # the comma actually connects these two print
+    print end7+end8+end9+end10+end11+end12
 
-习题9
-\n 换行
-print """ 
+##习题9
+* ```\n``` 换行
+* ```print """ 
 XXX
-"""
-可以直接输出一段话这样子
+"""```可以直接输出一段话这样子
 
-习题10 
-
-习题11：
+##习题11
 一般软件做的事情主要就是下面几条：
 1. 接受人的输入。
 2. 改变输入。
 3. 打印出改变了的输入。
-在每行结束后加“，”
-raw_input() 用法
 
-习题12：
-所以raw_input("这里直接加入要输出的话")，然后后面要求用户输入
-pydoc win下不能用，回去mac实验一下
-查到一个win上用pydoc的：
-python -m pydoc raw_input
+ ```raw_input()``` 用法
 
-习题13
-重要概念：解包（unpack）。这的确是一个很方便的概念，一个argv里面可以存很多variables
-import 模组（modules）
-我的版本不对哦，同时用raw_input和argv不行？待解决
-以解决，可以贴一下code作为笔记
+##习题12
 
-习题14
+* 所以: ```raw_input("这里直接加入要输出的话")，然后后面要求用户输入```
 
-习题15
-问题：运行如下代码：
+* python -m pydoc raw_input (调用pydoc的方法)
 
-报错：
+##习题13
+* 重要概念：解包（unpack）。这的确是一个很方便的概念，一个argv里面可以存很多variables
 
-由于公司无法科学上网，所以百度问题，给出的答案都是file相关的，比如如下：
-感觉不在点儿上。不想浪费时间继续baidu了，所以
-我想问：
-1：这个是不是win上的问题？
-2：这个txt.read（）函数应该是python自己本身有的吧？还是版本不同这个函数更新了或者用的不对？
-3：python如何逐行debug
+* ```import 模组(modules)```
 
-琢磨了一下改对了，但是还是想问是不是教程错了？
-正确的如下：
-
-后来发现看漏了一行，也是醉了！
-这个可以当作视而不见的例子了。作为一个“眼睛是出气儿的人”，对我来说太普遍了。
-我自己的合理化解释是我大脑的top-down功能甩bottom-up功能好几条街！
-
-习题16：
-• close – 关闭文件。跟你编辑器的 文件- >保存 ..一个意思。
-• read – 读取文件内容。你可以把结果赋给一个变量。
-• readline – 读取文本文件中的一行。
-• truncate – 清空文件，请小心使用该命令。
-• write(stuff) – 将stuff 写入文件。
-target = open (filename , 'w' )
-
-习题17
-命令exists。这个命令将文件名字符串作为参数
-在mac上试一下 cat copied.txt
+##习题17
+* 命令```exists```。
+    
+    *这个命令将文件名字符串作为参数,在mac上试一下 cat copied.txt
 我使用了一个叫 cat 的东西，这个古老的命令的用处是将两个文件“连接
 (concatenate)”到一起，不过实际上它最大的用途是打印文件内容到屏幕
 上。你可以通过 man cat 命令了解到更多信息。
+*
 
-习题18
+###**出差了4天，进度落下来了**
 
-习题19
+##习题23
+书里提供的有大量python代码网站：
 
-习题20 
+* bitbucket.org
+* github.com
+* launchpad.net
+* koders.com
 
-出差了4天，进度落下来了
+##习题25
+* 运行python后，需要执行文件用```ipmort filename``` （这里是把.py文件当作一个模组来使用）
+* ```ex25.break_words``` 是运行里面具体函数的方法
+* ```help(ex25)``` or ```help(ex25.break_words)``` 我在win下无法执行？
+* ```from ex25 import *```
+* python编译器是什么？sublime是编译器吗？
 
-习题21 
-习题23
-bitbucket.org
-github.com
-launchpad.net
-koders.com
+##习题27 一周内完成 开始学逻辑关系
+* 真值表:表四 没理解为什么 true+ture=false？后来发现应该是打印错误了。我在cmd里面输出的结果是true
 
-习题25
-运行python后，需要执行文件用ipmort filename （这里是把.py文件当作一个模组来使用）
-ex25.break_words 是运行里面具体函数的方法
-help(ex25) or help(ex25.break_words) ? 无法执行？
-from ex25 import *
-python编译器是什么？
+##习题29&30
+* 注意if语句的格式
 
-习题27 一周内完成 开始学逻辑关系
-真值表 表四 没理解为什么 true+ture=false？
-应该是打印错误了。我在cmd里面输出的结果是true
+        if XX:
+            blablabla
+        elif XX:
+            blablabla
+        else:
+            blablabla  
+    
+* 最容易出现的问题就是不加：
+  
 
-习题28
+##习题32：
+    你要做的是以 [ （左方括号）开头“打开”列表，然后写下你要放入列表的东西，
+    用逗号隔开，就跟函数的参数一样，最后你需要用 ] （右方括号）结束右方括号的定义
 
-习题29&30
-注意if语句的格式
-if XX:
-  blablabla
-elif XX:
-     blablabla
-else:
-     blablabla  
+##习题33： while循环
+    回到while 循环，它所作的和if语句类似，也是去检查一个布尔表达式的真假，
+    不一样的是它下面的代码片段不是只被执行一次，
+    而是执行完后再调回到while所在的位置，如此重复进行，
+    直到 while 表达式为False 为止。
+    while循环需要i=i+1的counter
 
-习题32：
-你要做的是以 [ （左方括号）开头“打开”列表，然后写下你要放入列表
-的东西，用逗号隔开，就跟函数的参数一样，最后你需要用 ] （右方括号）结
-束右方括号的定义
+##习题34
+* python里的列表是从0开始算的，不是1！！！
+* oridinal number 序数
+* cardinal number 基数
 
-习题33： while循环
-回到while 循环，它所作的和if 语句类似，也是去检查一个布尔表达式的
-真假，不一样的是它下面的代码片段不是只被执行一次，而是执行完后再调回
-到while 所在的位置，如此重复进行，直到 while 表达式为False 为止。
-while循环需要i=i+1的counter
+##习题35
+* 最爱犯的错就是if后面不加： 
 
-习题34
-python里的列表是从0开始算的，不是1！！！
-oridinal number 序数
-cardinal number 基数
-
-习题35
-最爱犯的错就是if后面不加： 
-
-习题36
+##习题36
 这里的if语句没有end做结尾，所以需要else+die函数做结尾
 “如果这个 else 永远都不应该被执行到，因为它本身没有任何意义，那你
 必须在else 语句后面使用一个叫做die 的函数，让它打印出错误信息并且
