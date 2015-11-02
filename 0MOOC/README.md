@@ -1,6 +1,8 @@
-# Python环境设置和学习资料汇总
+## Python环境设置和学习资料汇总
 
-推荐书籍：
+
+
+###推荐书籍：
 
 （1）入门三本： 
 
@@ -13,6 +15,24 @@
 * Python Essential Reference ([豆瓣条目](http://book.douban.com/subject/3273420/))
 * Python Essential Reference 3rd edition develop's library ([豆瓣条目](http://book.douban.com/subject/1758560/))
 
-# Mac环境设置及软件安装
+## Mac环境设置及软件安装
 
-# Win环境设置及软件安装
+
+
+## Win环境设置及软件安装
+
+安装后需要配置路径，参考了这篇图说位置的[教程](http://jingyan.baidu.com/article/d5a880eb6aca7213f047cc6c.html)，和这篇文字说明的[教程](http://blog.sina.com.cn/s/blog_63597aa50100iycp.html)重点如下：
+
+现在我假设你的python安装在C:\Python26目录下，设置环境变量方法如下：
+    
+    我的电脑->属性->高级->环境变量->系统变量
+    
+    在系统变量里找到PATH，双击PATH，在结尾加上 ";C:\Python26"(不要引号)
+    
+    在系统变量里找到PATHEXT, 在结尾加上 ".PY;.PYM" 
+
+
+
+
+
+
