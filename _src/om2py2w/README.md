@@ -11,7 +11,9 @@
 ---
 ####中间版本
 
+[diaryGUITest.py](/2wex1/diaryGUITest.py)
 
+[diaryGUI](/2wex1/diaryGUI.py)
 
 ---
 ####感想
