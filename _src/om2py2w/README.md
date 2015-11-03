@@ -11,9 +11,9 @@
 ---
 ####中间版本
 
-[diaryGUITest.py](/2wex1/diaryGUITest.py)
+[diaryGUITest.py](/2wex0/diaryGUITest.py)
 
-[diaryGUI](/2wex1/diaryGUI.py)
+[diaryGUI](/2wex0/diaryGUI.py)
 
 ####没解决问题
 
