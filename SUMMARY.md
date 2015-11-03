@@ -5,8 +5,9 @@
 * [笨办法学Python笔记](1sTry/HardWayNotes.md)
 * [课程作业](2nDev/README.md)
 
-    * [1W-交互101](_src/)
-    
+    * [1W-交互101](_src/om2py1w/1wex1/README.md)
+    * [2W-GUI 101](_src/om2py2w/2wex1/README.md)
+    * [3W-NET 101](_src/om2py3w/3wex1/README.md)
 *   
 * [人生首秀](3rDemo/README.md)
 * [代码 (_src)](_src/README.md)
