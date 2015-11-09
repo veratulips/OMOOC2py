@@ -2,9 +2,11 @@
 
 ［20151109］Google了一下[bottle](http://bottlepy.org/docs/dev/index.html)和[Jinja2](http://jinja.pocoo.org/docs/dev/)的官方文档，准确地说应该是开发者网站。读了一些基本内容，安装好了。
 
-安装：
+安装 bottle：
 
 * ```pip install bottle```
+
+安装 Jinja2:
 
 * ```pip install Jinja2```
 
