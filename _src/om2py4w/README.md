@@ -1,8 +1,22 @@
-# OMOOC.py 周任务代码试作
+#4W-学习笔记
 
-## 4w
+［20151109］Google了一下[bottle](http://bottlepy.org/docs/dev/index.html)和[Jinja2](http://jinja.pocoo.org/docs/dev/)的官方文档，准确地说应该是开发者网站。读了一些基本内容，安装好了。
 
-- 私人笔记:
-    + SAE 发布服务
-    + web 页面端口
-    + 用户认证
+安装：
+
+* ```pip install bottle```
+
+* ```pip install Jinja2```
+
+如果出现如下报错：
+
+```Requirement already satisfied (use --upgrade to upgrade): MarkupSafe in/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages (from Jinja2)```
+
+应该是已经安装配置好了吧，或者更新一下，以防万一。
+
+```pip install Jinja2 --upgrade```
+
+之后显示的是：
+
+```Requirement already up-to-date: Jinja2 in /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages```
+
