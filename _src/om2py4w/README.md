@@ -22,3 +22,9 @@
 
 ```Requirement already up-to-date: Jinja2 in /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages```
 
+这些应该没问题了。
+
+明天上班空闲去读文档。
+
+[20151110]
+
