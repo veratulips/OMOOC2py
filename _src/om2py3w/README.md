@@ -10,6 +10,9 @@
 
 [20151108] 首先设置了sublime里面markdown高亮和实时预览的功能，然后调通了3w作业。
 
+---
 
+服务器程序运行：```diaryServer.py```
 
+客户程序运行：```diaryClient.py```
 
