@@ -23,3 +23,8 @@
 功能模块：
 
 ---
+
+学习资料：
+
+1. 推荐Alan Lai同学的gitbook，
+2. 推荐coursera上的[Python access web data ](https://www.coursera.org/learn/python-network-data/lecture/ghhKu/networked-programs)。对于入门来说非常合适，尤其是一开始对于搭建C/S框架没有任何概念的时候。特别推荐本课程第三周的lectures。
