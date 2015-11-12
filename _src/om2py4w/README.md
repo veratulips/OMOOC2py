@@ -32,6 +32,7 @@
 
 待阅读实现的功能：
 
-[request](http://docs.python-requests.org/en/latest/user/quickstart/)
-[html代码格式](http://docs.python-guide.org/en/latest/scenarios/scrape/)
+* [request](http://docs.python-requests.org/en/latest/user/quickstart/)
+
+* [html代码格式](http://docs.python-guide.org/en/latest/scenarios/scrape/)
 
