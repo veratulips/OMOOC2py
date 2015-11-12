@@ -30,9 +30,14 @@
 
 [20151112] 今天把4w作业的框架写了一下，但是这周工作的任务特别多，所以在工作时间基本上看不了代码写不了啥。上周的视频还没有看，今天晚上补上。
 
+几个基本功能：
+
+* route()
+* run()
+* template()
+
 待阅读实现的功能：
 
 * [request](http://docs.python-requests.org/en/latest/user/quickstart/)
-
 * [html代码格式](http://docs.python-guide.org/en/latest/scenarios/scrape/)
 
