@@ -77,7 +77,7 @@
 	```$ git config --global github.token %^&@*124976y(your token)``` # 这个在settings->personal access token，如果没有，生成一个
 
 
-	
+
 
 	清密：
 
@@ -86,11 +86,19 @@
 	```$ mkdir key_backup```
 
 	```$ cp id_rsa* key_backup```
-	
+
 	```$ rm id_rsa*```
 
 
-###推荐书籍：
+## Sublime上设置markdown高亮和即时预览
+
+主要参考[Alan Lai的教程](https://wzzlj.gitbooks.io/wzzljomooc2py/content/Begin/peizhi_sublime_markdown.html)，需要注意的是Lai同学的教程是基于sublime text 3的，我的是text 2，所以在安装的时候ctrl+~后的代码在[官网](https://packagecontrol.io/installation#st2)上复制粘贴。
+
+另外注意，修改配置要在一个md文件下才能修改
+
+
+
+## 推荐书籍：
 
 （1）入门三本： 
 
