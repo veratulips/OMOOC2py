@@ -43,7 +43,7 @@
 
 	（操作的时候我并没有理解这个git bash是啥，弹出个shell和cmd有啥区别。）
 
-	### 下面要做的是链接你的github并授权。
+	下面要做的是链接你的github并授权。
 
 	首先你要有[github](http://github.com)帐号，没有先去注册。
 
