@@ -21,6 +21,8 @@
 
 ## Win环境设置及软件安装
 
+设置python
+
 安装后需要配置路径，参考了这篇图说位置的[教程](http://jingyan.baidu.com/article/d5a880eb6aca7213f047cc6c.html)，和这篇文字说明的[教程](http://blog.sina.com.cn/s/blog_63597aa50100iycp.html)重点如下：
 
 现在我假设你的python安装在C:\Python26目录下，设置环境变量方法如下：
