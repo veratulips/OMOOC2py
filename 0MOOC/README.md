@@ -34,6 +34,13 @@
     在系统变量里找到PATHEXT, 在结尾加上 ".PY;.PYM" 
 
 
+* 安装pip
+
+
+在C:\Python27\Scripts目录下，cmd命令：```easy_install.exe pip```，安装成功后，cmd输入```pip```，查看。
+
+
+
 
 
 
