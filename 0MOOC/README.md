@@ -22,19 +22,18 @@
 
 * 安装pip
 
-
-	在C:\Python27\Scripts目录下，cmd命令：```easy_install.exe pip```，安装成功后，cmd输入```pip```，查看。
+    在C:\Python27\Scripts目录下，cmd命令：```easy_install.exe pip```，安装成功后，cmd输入```pip```，查看。
 
 
 * 配置 git & github
 
 	首先下载[mysysgit](https://git-for-windows.github.io/)，即windows上的git安装包，然后点击安装，我是win7，安装的是```Git-2.6.3-64-bit.exe```。
 
-	### 窗口界面安装中：
+	窗口界面安装中：
 　
-		* 在Select Components中，要选择最后一项：Use a TrueType font in all console windows (not only for Git Bash).
+	* 在Select Components中，要选择最后一项：Use a TrueType font in all console windows (not only for Git Bash).
 
-		* 在Select Start Menu Folder中，选择Don't create a start menu folder. 
+	* 在Select Start Menu Folder中，选择Don't create a start menu folder. 
 
 	其他选项都是默认就好。
 
@@ -75,19 +74,16 @@
 	```$ git config --global github.user yourname```
 	
 	```$ git config --global github.token %^&@*124976y(your token)``` # 这个在settings->personal access token，如果没有，生成一个
-
-
-
-
+	
 	清密：
 
-	```$ cd ~/. ssh```
+    ```$ cd ~/. ssh```
 
-	```$ mkdir key_backup```
+    ```$ mkdir key_backup```
 
-	```$ cp id_rsa* key_backup```
+    ```$ cp id_rsa* key_backup```
 
-	```$ rm id_rsa*```
+    ```$ rm id_rsa*```
 
 
 ## Sublime上设置markdown高亮和即时预览
