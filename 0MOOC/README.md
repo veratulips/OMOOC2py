@@ -3,7 +3,17 @@
 
 ## Mac环境设置及软件安装
 
+设置github教程见官网，[github SSH](https://help.github.com/articles/generating-ssh-keys/) & [github set up](https://help.github.com/articles/set-up-git/). 
 
+常用git语句：
+
+复制已有repo到本地：
+
+```$ git clone git@github.com/username/path(master)```
+```$ git add .``` or ```$ git add FILENAME```
+```$ git commit -m "the gist of this commit"```
+```$ git push -u origin master``` 
+```$ git remote -v``` check out what is your origin and master  
 
 ## Win环境设置及软件安装
 
