@@ -23,9 +23,7 @@ webpage = '''
         <input type="submit" name="save" value="save">
     </form>
     <ul>
-        %for line in input:
-        {{line}}
-        %end
+        {{input}}
     </ul>
 </body>
 </html>
@@ -63,7 +61,7 @@ def writeDiary():
     # result = c.fetchall()
     # conn.commit()
     # c.close()
-    return template(webpage,input=chttp://localhost:8080/diaryontent)
+    return template(webpage,input=content)
 
 
 run(host = 'localhost', port = 8080, debug=True)
