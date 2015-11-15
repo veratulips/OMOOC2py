@@ -44,12 +44,18 @@
 
 * [html代码格式](http://docs.python-guide.org/en/latest/scenarios/scrape/)
 
+* [备选教程](http://gotofritz.net/blog/weekly-challenge/restful-python-api-bottle/)
 
 [20151114] 前面的任务断开了，今天决定从官网的[todo－list的例子](http://bottlepy.org/docs/dev/tutorial_app.html)做一下，因为基本功能模块都有涉及。
 
 * 建立SQL database: ```import sqlite3```
 
 * route() route of bottle: a certain address on the server. 
+  
+	dynamic routes: ```@route('/myroute/<sth>')```
+	"The key point here is the colon. This tells Bottle to accept for :something any string up to the next slash. Furthermore, the value of something will be passed to the function assigned to that route, so the data can be processed within the function."
+
+	dynamic routes using regular expressions: ```@route(/item<item_:re:[0-9]+>)```
 
 * run() starts the web server included in Bottle
 
@@ -63,11 +69,26 @@
 
 	If you need to access a variable within a non-Python code line inside the template, you need to put it into double curly braces. This tells the template to insert the actual value of the variable right in place.
 
+* GET & POST of ```request``` 
+
+####Trouble shooting process: 
+
+1. error msg: ```error: [Errno 48] Address already in use```
+
+	google results [1](http://stackoverflow.com/questions/19071512/socket-error-errno-48-address-already-in-use) [2](http://stackoverflow.com/questions/7703797/need-to-close-python-socket-find-the-current-running-server-on-my-dev-environm): it seems that socket is not closed but I tried this two ways, it is not work. and I tried ```ps -fA | grep python``` there is no ongoing process, except ```502  3243  1743   0 10:06AM ttys000    0:00.00 grep python```, and I tried ```kill 3243```, it says ```-bash: kill: (3243) - No such process```. 
+
+	I am going to try restart the browser and terminal. When I am going to quit the terminal it says that my Python is running there, so this is probably the problem. But it seems I didn't know how to kill that. 
+
+	Then I googled search kw: bottle + error msg:
+
+	I got this [page](http://stackoverflow.com/questions/17044939/python-bottle-can-run-two-programs-on-the-same-address-and-port-on-windows), though this is not directly the same as my situation but when I saw the ```run(host='localhost',port=9999)```, I realized that the parameters in run() matters, thus, I changed the ```run(reloader=True)``` back to ```run()```, everything worked. 
 
 
 Q&A: 
 
 1. what is tuple? 
+
+2. How can I view data in database(*.db)? 
 
 ---
 
