@@ -47,6 +47,28 @@
 
 [20151114] 前面的任务断开了，今天决定从官网的[todo－list的例子](http://bottlepy.org/docs/dev/tutorial_app.html)做一下，因为基本功能模块都有涉及。
 
+* 建立SQL database: ```import sqlite3```
+
+* route() route of bottle: a certain address on the server. 
+
+* run() starts the web server included in Bottle
+
+* return what you want to see in the browser
+
+* debug() & run(reloader=True)
+
+* templates are stored as separae files having a ```.tpl``` extension, which uses HTML-markup mixed with Python statement. 
+
+	template formatting: % is interpreted as Python code; others are plain HTML markup.
+
+	If you need to access a variable within a non-Python code line inside the template, you need to put it into double curly braces. This tells the template to insert the actual value of the variable right in place.
+
+
+
+Q&A: 
+
+1. what is tuple? 
+
 ---
 
 ###感想 
