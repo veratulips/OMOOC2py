@@ -41,8 +41,11 @@
 待阅读实现的功能：
 
 * [request](http://docs.python-requests.org/en/latest/user/quickstart/)
+
 * [html代码格式](http://docs.python-guide.org/en/latest/scenarios/scrape/)
 
+
+[20151114] 前面的任务断开了，今天决定从官网的[todo－list的例子](http://bottlepy.org/docs/dev/tutorial_app.html)做一下，因为基本功能模块都有涉及。
 
 ---
 
