@@ -88,6 +88,14 @@
 
 3. [coding problems illustration](https://www.python.org/dev/peps/pep-0263/): I happend to find this page. 
 
+4. How can I know whether the data is saved in database? [Similar questions on stackoverflow](http://stackoverflow.com/questions/2440147/how-to-check-the-existence-of-a-row-in-sqlite-with-python), needs more reading and tries on this. 
+
+####Pickups:
+
+[a quick start about sqlite3 of database](http://pythontips.com/2013/08/01/connecting-to-sqlite-databases/).
+
+[pythontips](http://pythontips.com/python-resources/): a good website for searching and learning. However, I actually don't have time to read more. 
+
 Q&A: 
 
 1. what is tuple? 
