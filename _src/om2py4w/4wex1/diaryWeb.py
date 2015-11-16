@@ -46,16 +46,15 @@ def readDiary():
 @route('/diary',method='POST')
 def writeDiary():
     line = request.POST.get('line','')
-    
-    if line:
-        time = datetime.now()
-        t = time.strftime("%y/%m/%d")
-        f = open(filename,'a')
-        update = t + '\t' + line + '\n'
-        f.write(update)
-        content = f.read()+'\n'+update
-        # print content
-        f.close()
+
+    time = datetime.now()
+    t = time.strftime("%y/%m/%d")
+    f = open(filename,'a')
+    update = t + '\t' + line + '\n'
+    f.write(update)
+    content = f.read()+'\n'+update
+    # print content
+    f.close()
 
     conn = sqlite3.connect('diary.db')
     c = conn.cursor()
