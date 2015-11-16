@@ -84,6 +84,10 @@
 	I got this [page](http://stackoverflow.com/questions/17044939/python-bottle-can-run-two-programs-on-the-same-address-and-port-on-windows), though this is not directly the same as my situation but when I saw the ```run(host='localhost',port=9999)```, I realized that the parameters in run() matters, thus, I changed the ```run(reloader=True)``` back to ```run()```, everything worked. 
 
 
+2. error msg: ```Error: 500 Internal Server Error```
+
+3. [coding problems illustration](https://www.python.org/dev/peps/pep-0263/): I happend to find this page. 
+
 Q&A: 
 
 1. what is tuple? 
